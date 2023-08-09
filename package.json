@@ -1,0 +1,30 @@
+{
+  "name": "terminal-life",
+  "version": "1.0.0",
+  "repository": "git@github.com:lauchlan105/terminal-life.git",
+  "author": "lauchlan irwin <lauchlan.irwin@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "module": "dist/index.esm.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "serve": "node ./dist/index.js"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.6",
+    "@types/node": "^20.4.8",
+    "esbuild": "^0.18.20",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "figlet": "^1.6.0",
+    "rxjs": "^7.8.1"
+  }
+}
